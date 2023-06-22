@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+  <h1 class="a"></h1>
+  <pre class="a"></pre>
+  <a href="b"></a>
+  <h2 class="a"></h2>
+  <h3 class="a"></h3>
+  <script>
+    var elements=document.getElementsByClassName("a");
+    console.log(elements)
+    elements[0].innerHTML="this h1 tag"
+    elements[1].innerHTML="this pre tag"
+    elements[2].innerHTML="this h2 tag"
+    elements[3].innerHTML="this h3 tag"
+    elements[0].style.color="blue"
+    elements[1].style.color="red"
+    elements[2].style.color="deeppink"
+
+  </script>
+    
+</body>
+</html>
